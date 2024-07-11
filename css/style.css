@@ -1,0 +1,139 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.toggle {
+  background-color: tomato;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.bg-hero {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: tomato;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bg-dark {
+  width: 150px;
+  height: 100%;
+}
+.fa-bars {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  align-content: baseline;
+}
+.mynav {
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+ul {
+  display: none;
+}
+
+/* .col-md-3{
+  height: 20px;
+  text-align: center;
+} */
+.mynav a {
+  color: white;
+  font-size: 22px;
+  margin: 15px 0;
+  transition: 0.5s;
+}
+.mynav a:hover {
+  color: brown;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+.hero-content {
+  padding-top: 240px;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 70px;
+}
+.hero-content p {
+  font-size: 30px;
+}
+
+.fa-bars {
+  cursor: pointer;
+}
+
+.bg-custom {
+  background-color: #cccccc;
+}
+
+.container div h2 {
+  cursor: pointer;
+}
+
+.counter {
+  background-color: tomato;
+  background-image: url(../images/invitation-2508607__340.jpg);
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.icons i {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  border: 3px solid black;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icons i:hover {
+  background-color: tomato;
+  color: white;
+}
+
+#Two,
+#Three,
+#Four {
+  display: none;
+}
+
+
+
+
