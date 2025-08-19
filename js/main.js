@@ -45,7 +45,7 @@ myArea.addEventListener("input", function () {
 
 // days counter
 
-let dayCounter = new Date("Mar 17 ,2025 , 12:00:00").getTime();
+let dayCounter = new Date("Mar 17 ,2027 , 12:00:00").getTime();
 // console.log(dayCounter);
 
 let counter = setInterval(function () {
@@ -67,3 +67,4 @@ let counter = setInterval(function () {
   document.getElementById("min").innerText = minute + " Minutes";
   document.getElementById("sec").innerText = seconds + " Seconds";
 }, 1000);
+
